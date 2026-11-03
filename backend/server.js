@@ -1,3 +1,4 @@
+require('dns').setServers(['1.1.1.1', '8.8.8.8']);
 const express = require('express')
 const colors = require('colors')
 const dotenv = require('dotenv').config()
